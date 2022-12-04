@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import React from 'react';
+
+import UseEffectWithCleanup from './Hooks/UseEffectWithCleanup';
+
+
+// const data1 = React.createContext()  // create providers 
+// const data2 = React.createContext()
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+ return (
+    <div className='App'>
+      <UseEffectWithCleanup/>
+    
     </div>
   );
 }
 
 export default App;
+// export {data1,data2}  
+
+
+
+
+
+
